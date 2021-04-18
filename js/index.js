@@ -2,6 +2,30 @@
 
 // Task 1: Create a basic Calculator
 
+var num1 = parseInt(prompt("Enter First Number"));
+var operator = prompt("Enter An Operator + - * /");
+var num2 = parseInt(prompt("Enter Second Number"));
+
+switch(operator){
+case('+'):
+operator = num1+num2;
+document.write('Your Answer Is : ' + operator);
+break;
+case('-'):
+operator=num1-num2;
+document.write('Your Answer Is : ' + operator);
+break;
+case('*'):
+operator=num1*num2;
+document.write('Your Answer Is : ' + operator);
+break;
+case('/'):
+operator=num1/num2;
+document.write('Your Answer Is : ' + operator);
+break;
+}
+
+
 /* 
 
 1. Start creating three prompts, the first two for the two numbers and the second one for the operation
