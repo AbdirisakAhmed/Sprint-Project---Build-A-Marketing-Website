@@ -9,19 +9,19 @@ var num2 = parseInt(prompt("Enter Second Number"));
 switch(operator){
 case('+'):
 operator = num1+num2;
-document.write('Your Answer Is : ' + operator);
+console.log('Your Answer Is : ' + operator);
 break;
 case('-'):
 operator=num1-num2;
-document.write('Your Answer Is : ' + operator);
+console.log('Your Answer Is : ' + operator);
 break;
 case('*'):
 operator=num1*num2;
-document.write('Your Answer Is : ' + operator);
+console.log('Your Answer Is : ' + operator);
 break;
 case('/'):
 operator=num1/num2;
-document.write('Your Answer Is : ' + operator);
+console.log('Your Answer Is : ' + operator);
 break;
 }
 
