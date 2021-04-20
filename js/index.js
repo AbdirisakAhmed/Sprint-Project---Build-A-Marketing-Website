@@ -2,27 +2,24 @@
 
 // Task 1: Create a basic Calculator
 
-var num1 = parseInt(prompt("Enter First Number"));
-var operator = prompt("Enter An Operator + - * /");
-var num2 = parseInt(prompt("Enter Second Number"));
+const num1 = parseInt(prompt("Enter First Number"));
+const operator = prompt("Enter An Operator + - * /");
+const num2 = parseInt(prompt("Enter Second Number"));
 
-switch(operator){
-case('+'):
-operator = num1+num2;
-document.write('Your Answer Is : ' + operator);
-break;
-case('-'):
-operator=num1-num2;
-document.write('Your Answer Is : ' + operator);
-break;
-case('*'):
-operator=num1*num2;
-document.write('Your Answer Is : ' + operator);
-break;
-case('/'):
-operator=num1/num2;
-document.write('Your Answer Is : ' + operator);
-break;
+if (operator==="+"){
+    console.log(num1+num2)
+}
+else if (operator==="-"){
+    console.log(num1-num2)
+}
+else if (operator==="*"){
+    console.log(num1*num2)
+}
+else if (operator==="/"){
+    console.log(num1/num2)
+}
+else{
+    console.log("Please Enter Numbers and Operator")
 }
 
 

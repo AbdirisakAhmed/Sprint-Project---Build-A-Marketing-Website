@@ -108,6 +108,10 @@ margin: 0 9.5rem;
   font-weight:bold;
   text-align: center;
 }
+nav a{
+  color: black;
+    text-decoration: none;
+  }
 
 li{
   display: inline-block;
@@ -177,37 +181,12 @@ footer{
   color: white;
   height: 2.5rem;
   margin-top: 20px;
-  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (min-width: 500px){
 
-.container home {
-
+.container-home {
+  display: inline;
   max-width: 100%;
   width: 100%;
   margin: 0 auto; 
@@ -273,29 +252,30 @@ footer{
 }
 
 nav ul{
+  display: flex;
   width: auto;
   float: right;
   font-weight: bold;
   font-size: 1.5rem;
   font-family:Georgia, 'Times New Roman', Times, serif;
- 
+  margin-top: -50px;
 }
 
 li{
   
-  display: inline-block;
+  display: flex;
   flex-direction: row;
   padding: 15px 30px;
-  margin-bottom: 1rem;
+  
+
   
  
 }
-.intro{
-  display: inline;
- 
-  justify-content: space-between;
-
+nav a{
+color: black;
+  text-decoration: none;
 }
+
 
 input[type=text] {
   width: 80%;
